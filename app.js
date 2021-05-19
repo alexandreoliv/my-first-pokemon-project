@@ -2,7 +2,7 @@ let count = 1;
 
 function render(){
     let container = document.getElementById('pokemon');
-    container.innerHTML = `<img class="poke" src="https://tinyurl.com/ironhack-pokemons/${count}.svg">`;    
+    container.innerHTML = `<img class="poke" src="https://tinyurl.com/ironhack-pokemons/${count}.svg" alt="Pokemon image">`;    
 }
 
 let prev = document.getElementById('prev');
